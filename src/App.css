@@ -1,38 +1,196 @@
-.App {
+
+
+.navbar_container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+  margin: auto;
+
+}
+
+.logo_wrapper {
+  width: 100%;
+  max-width: 160px;
+}
+
+.Logo {
+  width: 100%;
+}
+
+.navlinks_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 26px;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #292F36;
+}
+
+.navlinks_wrapper div:hover {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.2s ease;
+  color: #292F36;
+
+}
+
+.main_hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/Photo.jpg");
+  background-size: cover;
+  background-position: left top;
+  border-radius: 0 0 0 290px;
+}
+
+.data-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: start;
+  width: 100%;
+  max-width: 1000px;
+
+}
+.data-wrapper h2{
+  font-family: 'DM Serif Display', serif;
+  font-size:62px;
+  font-weight: 500;
+  max-width:400px;
+  color: #292F36;
+}
+.data-wrapper span{
+  font-family: 'jost', serif;
+  font-size:20px;
+  font-weight: 500;
+  max-width:520px;
+  color: #292F36;
+  margin-top:-40px;
+}
+
+.button_icon{
+  margin-left:10px;
+  color: "#fff";
+}
+
+.transparent_cardwrapper{
+
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  max-width:1000px;
+  margin:100px auto 0 auto;
+  padding:80px 0px;
+
+}
+
+.intro_card{
+  width:100%;
+  max-width:300px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro_card h3{
+  font-family: 'DM Serif Display', serif;
+  font-size:26px;
+  font-weight: 400;
+}
+.intro_card span{
+  font-family: 'jost', serif;
+  font-size:18px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cta_wrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items:center;
+width: 100%;
+max-width:1000px;
+margin:auto;
+padding:80px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.data_wrapper
+{
+width:100%;
+font-family: 'jost', serif;
+font-size:20px;
+font-weight:500;
+padding:0px 120px 0px 0px ;
+color:#4D5053;
+
+}
+.data_wrapper h2
+{
+  font-family: 'DM Serif Display', serif;
+  font-size:26px;
+  font-weight: 400;
+  max-width:360px;
+  font-size:42px;
+  color:#292F36
+}
+
+
+
+.image_wrapper{
+width:100%;
+height:600px;
+background-image: url("./assets/cta.jpg");
+border-radius: 0 326px 0 123px;
+background-size: cover;
+}
+
+.horizontal_wrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: start;
   align-items: center;
+}
+.icon_wrapper{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  background-color: #F4F0EC;
 }
 
-.App-link {
-  color: #61dafb;
+.vertical_wrapper_phone{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding:20px 30px
+} 
+
+.vertical_wrapper_phone p{
+  padding:0;
+  margin:0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vertical_wrapper_phone h5{
+  padding:0;
+  margin:0;
+  font-size:20px;
+  font-weight: 600;
 }
