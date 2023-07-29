@@ -1,4 +1,15 @@
+:root {
+--primaryColor:#292F36;
+--secondaryColor:#CDA274;
+--fontColor:#4D5053;
+--primaryFont:'DM Serif Display', serif;
+--secondaryFont:'jost', serif;
 
+}
+
+h1,h2,h3,h4{
+  font-family: var(--primaryFont);
+}
 
 .navbar_container {
   width: 100%;
@@ -26,7 +37,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   gap: 26px;
-  font-family: 'Jost', sans-serif;
+  font-family:var(--secondaryFont);
   font-size: 16px;
   font-weight: 500;
   color: #292F36;
@@ -36,7 +47,7 @@
   font-size: 18px;
   font-weight: 600;
   transition: 0.2s ease;
-  color: #292F36;
+  color:var(--primaryColor);
 
 }
 
@@ -64,18 +75,18 @@
 
 }
 .data-wrapper h2{
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--primaryFont);
   font-size:62px;
   font-weight: 500;
   max-width:400px;
-  color: #292F36;
+  color:var(--primaryColor);
 }
 .data-wrapper span{
   font-family: 'jost', serif;
   font-size:20px;
   font-weight: 500;
   max-width:520px;
-  color: #292F36;
+  color:var(--primaryColor);
   margin-top:-40px;
 }
 
@@ -108,12 +119,12 @@
 }
 
 .intro_card h3{
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--primaryFont);
   font-size:26px;
   font-weight: 400;
 }
 .intro_card span{
-  font-family: 'jost', serif;
+  font-family:var(--secondaryFont);
   font-size:18px;
   font-weight: 500;
 }
@@ -132,7 +143,7 @@ padding:80px 0px;
 .data_wrapper
 {
 width:100%;
-font-family: 'jost', serif;
+font-family:var(--secondaryFont);
 font-size:20px;
 font-weight:500;
 padding:0px 120px 0px 0px ;
@@ -141,12 +152,12 @@ color:#4D5053;
 }
 .data_wrapper h2
 {
-  font-family: 'DM Serif Display', serif;
+  font-family: var(--primaryFont);
   font-size:26px;
   font-weight: 400;
   max-width:360px;
   font-size:42px;
-  color:#292F36
+  color:var(--primaryColor);
 }
 
 
@@ -160,10 +171,12 @@ background-size: cover;
 }
 
 .horizontal_wrapper{
+  width:100%;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
+  
 }
 .icon_wrapper{
   display:flex;
@@ -193,4 +206,66 @@ background-size: cover;
   margin:0;
   font-size:20px;
   font-weight: 600;
+}
+
+.testimonial_wrapper{
+
+  width:100%;
+  max-width:1000px;
+  background-color: #F4F0EC;
+  margin: 80px auto 80px auto ;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding:80px 20px 120px 20px;
+  border-radius:60px;
+  font-family:var(--secondaryFont);
+  font-size:16px;
+  font-weight:400;
+}
+
+.testimonial_cardwrapper{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.testimonial_card{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items: center;
+  min-height:200px;
+  max-width:220px;
+  background-color: #fff;
+  border-radius:20px;
+  padding:10px 40px;
+  margin-top:60px;
+}
+
+
+.testimonial_pic{
+  height:70px;
+  width:70px;
+  padding-right: 20px;
+}
+.testimonial_data h5{
+font-family: var(--primaryFont);
+font-size:18px;
+margin:0;
+}
+.brand_images{
+  width:100%;
+  max-width:1000px;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.brand_images img{
+width:100px;
 }

@@ -3,7 +3,6 @@ import { PlainButton } from "./button";
 import { FaArrowRight } from "react-icons/fa"
 
 
-
 function TransparentCards(){
     
 return(
@@ -26,6 +25,7 @@ return(
 
         />
         </PlainButton>
+
     </div>
 )};
 
