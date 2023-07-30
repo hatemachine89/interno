@@ -28,10 +28,31 @@ export const Images =[
             {image:require("../assets/03.png")},
             {image:require("../assets/04.png")},
             {image:require("../assets/05.png")},
-    
 
-    
-   
+
 ]
 
+export const projectData=  [
+{
+    projectTitle:"Modern Kitchen",
+    projectTag:"Decor / Artchitectur",
+    projectImg:"../assets/projectcard.png"
+},
+{
+    projectTitle:"Modern Kitchen2",
+    projectTag:"Decor / Artchitectur",
+    projectImg:"../assets/projectcard.png"
+},
+{
+    projectTitle:"Modern Kitchen3",
+    projectTag:"Decor / Artchitectur",
+    projectImg:"../assets/projectcard.png"
+},
+{
+    projectTitle:"Modern Kitchen4",
+    projectTag:"Decor / Artchitectur",
+    projectImg:"../assets/projectcard.png"
+}
+
+]
 
