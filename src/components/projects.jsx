@@ -2,6 +2,7 @@ import React from "react";
 import projectImage from "../assets/projectcard.png"
 import { FaArrowRight } from "react-icons/fa"
 import { projectData } from "./data";
+import Counter from "./resuable/counter";
 
 
 function Projects(){
@@ -44,6 +45,33 @@ return(
                 </div>
             </div>
         </div>
+
+
+<div className="counter_section">
+    <div className="counterWrapper">
+    <Counter 
+    number="12"
+    tagline="Years Of Experience"
+    />
+    <div className="seperator_bar"></div>
+    <Counter 
+    number="85"
+    tagline="Successful Projects"
+    />
+    <div className="seperator_bar"></div>
+    <Counter 
+    number="15"
+    tagline="Active Projects"
+    />    <div className="seperator_bar"></div>
+<Counter 
+    number="95"
+    tagline="Happy Customers"
+    />
+    </div>
+
+</div>
+
+
 
     </div>
 );

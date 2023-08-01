@@ -1,4 +1,5 @@
 import './App.css';
+import BlogPost from './components/blogpost';
 import Cardsection from './components/cardsection';
 import Cta from './components/cta';
 import Header from './components/header';
@@ -15,6 +16,7 @@ function App() {
    <Cta/>
     <Testimonials/>
     <Projects/>
+    <BlogPost/>
 
     </div>
   );
