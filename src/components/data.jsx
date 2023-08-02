@@ -56,3 +56,21 @@ export const projectData=  [
 
 ]
 
+export const blogData = [
+    {
+        title:"Let’s Get Solution For Building Construction Work",
+        tag:"Kitchen Design",
+        date:"26 December, 2023"
+    },
+    {
+        title:"Low Cost Latest Invented Interior DesigningyIdeas.",
+        tag:"Living Design",
+        date:"24 December, 2023"
+    }, 
+    {
+        title:"Let’s Get Solution For Building Construction Work",
+        tag:"Bathroom Design",
+        date:"22 December, 2023"
+    },
+
+]

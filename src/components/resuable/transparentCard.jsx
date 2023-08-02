@@ -29,4 +29,7 @@ return(
     </div>
 )};
 
+
+
+
 export default TransparentCards;

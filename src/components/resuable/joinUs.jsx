@@ -2,16 +2,16 @@ import React from "react"
 import { Button } from "./button";
 import {FaArrowRight} from "react-icons/fa"
 
-function JoinUs(){
+function JoinUs(props){
 
     return(
     <div className="JoinUs"> 
-        <h2>Wanna Join The Interno ?</h2>
-        <span>It is a long established fact  will be distracted.</span>
+        <h2>{props.title}</h2>
+        <span>{props.description}</span>
         <Button
         primary={false}
         big={false}
-        >Get Started 
+        >{props.buttonText} 
         <FaArrowRight
         style={{
              color:'#fff',

@@ -1,6 +1,8 @@
 import react from "react";
 import Blogcard from "./resuable/blogCard";
 import JoinUs from "./resuable/joinUs";
+import { blogData } from "./data";
+
 
 function BlogPost(){
 
@@ -14,12 +16,23 @@ function BlogPost(){
         </div>
 
         <div className="blog_cardwrapper">
-        <Blogcard/>
-        <Blogcard/>
-        <Blogcard/>
+        {blogData.map((item)=> (
+            <Blogcard
+            title={item.title}
+            tag={item.tag}
+            date={item.date}
+
+
+            />
+        ))}
+        
         </div>
 
-        <JoinUs/>
+        <JoinUs
+        title="Wanna Join The Interno ?"
+        description="It is a long established fact will be distracted."
+        buttonText="Get Started"
+        />
     </div>
     );
 }
