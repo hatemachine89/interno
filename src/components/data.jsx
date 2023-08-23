@@ -4,7 +4,7 @@ export const testimonials =[
         clientName:"Nattasha Mith",
         location:"Sydney, USA",
         review:"Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.",
-        img:"../assets/testimonial1.png"
+        img:require("../assets/testimonial1.png")
     },
     {
         clientName:"Raymond Galario",

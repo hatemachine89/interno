@@ -5,8 +5,7 @@ import {testimonials , Images} from "./data"
 function Testimonials(){
     return(<div>
         <div className="testimonial_wrapper">
-        <h2>What the People Think
- About Us</h2>
+        <h2>What the People Think About Us</h2>
  <div className="testimonial_cardwrapper">
  
  {testimonials.map((item, index) => ( 
@@ -21,7 +20,8 @@ function Testimonials(){
 
  </div>
         </div>
-        <div className="brand_images">
+        <div className="brand_i
+        ages">
 
             {Images.map((item) => (
                 <img src={item.image} alt=""/>

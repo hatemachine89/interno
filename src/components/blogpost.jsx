@@ -22,7 +22,6 @@ function BlogPost(){
             tag={item.tag}
             date={item.date}
 
-
             />
         ))}
         
