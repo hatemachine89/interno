@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa"
 function Cta(){
     return(
         <div className="cta_wrapper">
-        <div className="data_wrapper">
+        <div className="cta_data_wrapper">
             <h2>We Create The Art
                 Of Stylish Living
                 Stylishly</h2>

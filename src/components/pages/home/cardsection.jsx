@@ -1,5 +1,5 @@
 import React from "react";
-import TransparentCards from "./resuable/transparentCard";
+import TransparentCards from "../../resuable/transparentCard";
 
 
 

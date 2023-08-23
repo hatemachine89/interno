@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./resuable/button";
+import { Button } from "../../resuable/button";
 import {FaArrowRight} from "react-icons/fa"
 
 

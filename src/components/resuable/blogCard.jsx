@@ -1,6 +1,5 @@
 import React from "react";
 import {FaArrowRight} from "react-icons/fa"
-import blogimage from "../../assets/blogimage.png"
 
 function Blogcard(props){
 
@@ -8,7 +7,7 @@ return(
     <div className="blog_cardoutline">
         <div className="blog_container">
             <div className="blog_imagewrapper">
-                <img className="blogImage" src={blogimage} />
+                <img className="blogImage" src={props.image} alt="" />
                 <h4>{props.tag}</h4>
             </div>
             <h3>{props.title}</h3>

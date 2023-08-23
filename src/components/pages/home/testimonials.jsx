@@ -1,11 +1,11 @@
 import React from "react";
-import TestimonialCards from "./resuable/testimonialcard";
-import {testimonials , Images} from "./data"
+import TestimonialCards from "../../resuable/testimonialcard";
+import {testimonials , Images} from "../../../data"
 
 function Testimonials(){
     return(<div>
         <div className="testimonial_wrapper">
-        <h2>What the People Think About Us</h2>
+        <h2>What  People Think About Us</h2>
  <div className="testimonial_cardwrapper">
  
  {testimonials.map((item, index) => ( 
@@ -20,8 +20,7 @@ function Testimonials(){
 
  </div>
         </div>
-        <div className="brand_i
-        ages">
+        <div className="brand_images">
 
             {Images.map((item) => (
                 <img src={item.image} alt=""/>

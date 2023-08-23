@@ -1,7 +1,7 @@
-import react from "react";
-import Blogcard from "./resuable/blogCard";
-import JoinUs from "./resuable/joinUs";
-import { blogData } from "./data";
+import React from "react";
+import Blogcard from "../../resuable/blogCard";
+import JoinUs from "../../resuable/joinUs";
+import { blogData } from "../../../data";
 
 
 function BlogPost(){
@@ -21,6 +21,7 @@ function BlogPost(){
             title={item.title}
             tag={item.tag}
             date={item.date}
+            image={item.blogImg}
 
             />
         ))}

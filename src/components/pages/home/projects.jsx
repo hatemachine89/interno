@@ -1,8 +1,7 @@
 import React from "react";
-import projectImage from "../assets/projectcard.png"
 import { FaArrowRight } from "react-icons/fa"
-import { projectData } from "./data";
-import Counter from "./resuable/counter";
+import { projectData } from "../../../data";
+import Counter from "../../resuable/counter";
 
 
 function Projects(){
@@ -16,7 +15,7 @@ return(
                 <div className="project_grid">
                     {projectData.map((item) => (
                         <div className="project_card"> 
-                        <img src={projectImage}  className="project_image"/> 
+                        <img src={item.projectImg}  className="project_image" alt=""/> 
                     
                         <div className="horizontal_wrapper">
                         <div className="project_datawrapper">
