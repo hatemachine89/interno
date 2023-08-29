@@ -11,6 +11,7 @@ function JoinUs(props){
         <Button
         primary={false}
         big={false}
+        smallButton={true}
         >{props.buttonText} 
         <FaArrowRight
         style={{

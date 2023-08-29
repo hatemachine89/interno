@@ -15,6 +15,7 @@ return(
         <Button
         primary={true}
         big={false}
+        smallButton={true}
         >Get Started 
         <FaArrowRight
         style={{

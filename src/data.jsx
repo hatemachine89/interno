@@ -1,7 +1,7 @@
 
 export const MenuData = [
     { MenuItem:"Home",
-      Link:"/home" 
+      Link:"/" 
     },
     { MenuItem:"About Us ",
       Link:"/about-us"  
@@ -104,3 +104,24 @@ export const blogData = [
 
 ]
 
+
+export const aboutData = [
+
+{
+    title: "What We Do",
+    description:"It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal",
+    buttonText:"Our Concepts",
+    columnPic:require("./assets/whatwedoabout.jpg"),
+    reverseColumn:false
+
+},
+{
+    title: "The End Result",
+    description:"It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal",
+    buttonText:"Our Portfolio",
+    columnPic:require("./assets/aboutcolimage2.png"),
+    reverseColumn:true
+}
+
+
+]
