@@ -97,10 +97,10 @@ font-family: 'jost', serif;
 font-size:18px;
 padding:10px 40px;
 display:flex;
-flex-direction:row;
+flex-direction:column;
 justify-content:center;
-align-items:center;
-text-align:center;
+align-items: ${({reverseColumn}) => (reverseColumn ? "end" : "start")};
+text-align:start;
 
 h2{
   font-size:32px;

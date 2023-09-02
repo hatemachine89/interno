@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import {FaTimes} from 'react-icons/fa';
 import {Link as LinkR} from 'react-router-dom'
-
+import { MenuData } from '../../data'
 
 
 export const MobileMenuContainer = styled.aside`
@@ -85,21 +85,13 @@ const MobileMenu = ({isOpen , toggle}) =>
             </Icon>
             <MobileMenuWrappper>
                 <MobileMenuMenu>
-                <MobileMenuLink to="/Home">
-                        Home
+                {MenuData.map((item) => (
+                    <MobileMenuLink to={item.Link}>
+                    {item.MenuItem}
                     </MobileMenuLink>
-                    <MobileMenuLink to="/Pages">
-                        Pages
-                    </MobileMenuLink>
-                    <MobileMenuLink to="/services">
-                        Services
-                    </MobileMenuLink>
-                    <MobileMenuLink to="/Projects">
-                        Projects
-                    </MobileMenuLink>
-                    <MobileMenuLink to="/Contact">
-                        Contact
-                    </MobileMenuLink>
+                ))}
+                
+                    
                 </MobileMenuMenu>
                 
             </MobileMenuWrappper>

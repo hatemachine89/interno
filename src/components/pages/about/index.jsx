@@ -2,16 +2,23 @@ import React from 'react';
 import PageHero from '../../resuable/PageHero';
 import Testimonial from './Testimonial';
 import ColumnSection from './columnsection'
+import TeamCard from './teamCard';
+import ContactForm from './contactForm';
+import  {bannerData}  from './data'
+
 
 const About = () => {
   return (
-    <div className="App" >
+    <div  >
       <PageHero 
-        pageName="About Us"
-        pageBreadcrumb="Home / About Us"
+        banner={bannerData.bannerImage}
+        pageName={bannerData.title}
+        pageBreadcrumb={bannerData.breadcrumb}
       />
       <Testimonial/>
-<ColumnSection/>
+      <ColumnSection/>
+      <TeamCard/>
+      <ContactForm/>
     </div>
   )
 }

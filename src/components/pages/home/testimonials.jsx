@@ -1,6 +1,6 @@
 import React from "react";
 import TestimonialCards from "../../resuable/testimonialcard";
-import {testimonials , Images} from "../../../data"
+import {testimonials , Images} from "./data"
 
 function Testimonials(){
     return(<div>

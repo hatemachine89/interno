@@ -1,6 +1,6 @@
 import React from 'react'
 import ColumnCard from '../../resuable/columncard';
-import {aboutData} from '../../../data'
+import {aboutData} from './data'
 
 
 const ColumnSection = () => {

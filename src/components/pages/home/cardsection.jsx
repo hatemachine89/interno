@@ -1,14 +1,21 @@
 import React from "react";
 import TransparentCards from "../../resuable/transparentCard";
-
+import {servicesData} from './data'
 
 
 function Cardsection() {
 return(
 <div className="transparent_cardwrapper">
-    <TransparentCards/>
-    <TransparentCards/>
-    <TransparentCards/>
+    {servicesData.map((item) => (
+        <TransparentCards
+            title={item.title}
+            description={item.description}
+
+
+        />
+    ))}
+    
+    
 </div>
 )};
 

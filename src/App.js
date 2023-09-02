@@ -5,6 +5,8 @@ import Home from './components/pages/home';
 import MobileMenu from './components/resuable/mobilemenu';
 import Header from './components/resuable/header';
 import About from './components/pages/about';
+import Services from './components/pages/services';
+import Pricing from './components/pages/pricing';
 
 
 
@@ -27,6 +29,9 @@ function App() {
     <Routes>
     <Route path="/"   element={<Home />}/>
     <Route path="/about-us"   element={<About/>}/>
+    <Route path="/services"   element={<Services/>}/>
+    <Route path="/pricing"   element={<Pricing/>}/>
+
 
       </Routes>
     </Router>

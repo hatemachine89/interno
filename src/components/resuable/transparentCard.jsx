@@ -3,18 +3,19 @@ import { PlainButton } from "./button";
 import { FaArrowRight } from "react-icons/fa"
 
 
-function TransparentCards(){
+function TransparentCards(props){
     
 return(
     <div className="intro_card">
-        <h3>Project Plan</h3>
-        <span>There are many variations of the passages of lorem Ipsum from 
-        available, majority.
+        <h3>{props.title}</h3>
+        <span>{props.description}
         </span>
         <PlainButton
         transparent={true}
         dark={true}
         big={false}
+
+        
         > Get Started 
         <FaArrowRight
         style={{
