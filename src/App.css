@@ -1663,7 +1663,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   background-color: #F4F0EC;
   border-radius: 20px;
   padding: 40px 40px;
