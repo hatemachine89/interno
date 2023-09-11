@@ -75,6 +75,7 @@ export const NavItem = styled.div`
 `
 export const NavLinks = styled(LinkR)`
 color: #4D5053;
+font-size:18px;
 `
 
 export const MobileIcons = styled.div `
