@@ -1,7 +1,15 @@
 import React from "react";
+import propTypes from 'prop-types';
 
 
 function Counter(props){
+
+    Counter.propTypes = {
+        number: propTypes.number,
+        tagline: propTypes.string,
+       
+    }
+
      
     return(
         <div className="counter">

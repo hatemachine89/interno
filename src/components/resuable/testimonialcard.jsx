@@ -1,6 +1,16 @@
 import React from "react";
+import propTypes from 'prop-types';
 
 function TestimonialCards(props){
+
+    TestimonialCards.propTypes = {
+        
+        profilepic: propTypes.string,
+        clientName: propTypes.string,
+        location: propTypes.string,
+        
+    }
+
     
 return(
         <div className="testimonial_card">

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import propTypes from 'prop-types';
 
 
 
@@ -201,6 +202,17 @@ const devices = {
   
 
 const iconCard = (props) => {
+
+
+  iconCard.propTypes = {
+    image: propTypes.string,
+    title: propTypes.string,
+    description: propTypes.string,
+    icon: propTypes.string,
+    stepNumber: propTypes.number,
+    reverseColumn: propTypes.bool,
+}
+
   return (
     <div >
     <ColWrapper 

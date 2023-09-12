@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 import {Link} from 'react-scroll'
+import propTypes from 'prop-types';
+
+
+
 
 export const Button = styled(Link)`
 border-radius: 18px;
@@ -25,6 +29,11 @@ margin-top:20px;
 
 }
 `
+Button.propTypes = {
+    smallButton: propTypes.bool,
+    primary: propTypes.bool,
+    
+}
 
 export const PlainButton = styled(Link)`
 border-radius: 18px;
@@ -42,3 +51,10 @@ justify-content:center;
 align-items: center;
 margin-top:20px;
 `
+
+PlainButton.propTypes = {
+    transparent: propTypes.bool,
+    big: propTypes.bool,
+    dark: propTypes.bool,
+    
+}

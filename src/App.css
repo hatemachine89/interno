@@ -42,7 +42,7 @@ a {
 
   .data-wrapper h2 {
     font-family: var(--primaryFont);
-    font-size: 42px;
+    font-size: 38px !important;
     font-weight: 500;
     max-width: 400px;
     color: var(--primaryColor);
@@ -54,7 +54,7 @@ a {
     font-weight: 500;
     max-width: 520px;
     color: var(--primaryColor);
-    margin-top: -40px;
+    margin-top: -20px !important;
   }
 
 
@@ -67,7 +67,6 @@ a {
     max-width: 90% !important;
     margin: auto !important;
   }
-
 
 
 
@@ -112,7 +111,15 @@ a {
     align-items: center;
     text-align: center;
     padding: 0px !important;
+    max-width: 320px !important;
+
   }
+
+  .cta_data_wrapper h2 {
+    
+    font-size: 32px !important;
+    
+}
 
   .cta_data_wrapper span {
     width: 100%;
@@ -138,16 +145,26 @@ a {
 
   .testimonial_wrapper {
     width: 100%;
-    max-width: 340px !important;
+    max-width: 320px !important;
     padding: 0px 0px 40px 0px !important;
 
   }
 
   .testimonial_wrapper h2 {
-
+    font-size:32px !important;
     text-align: center;
+    margin-top: 40px !important;
     padding: 0px 20px;
   }
+
+  .testimonial_card {
+    width: 100%;
+ max-width: 240px !important;
+ padding: 10px 20px !important;
+}
+
+
+
 
   .brand_images {
     display: none !important;
@@ -162,12 +179,19 @@ a {
   .projects_wrapper {
 
     width: 100%;
-    max-width: 340px !important;
+    max-width: 320px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
+
+  .projects_wrapper h2 {
+    font-size: 32px !important;
+    
+}
+
 
   .project_grid {
     display: grid;
@@ -894,14 +918,16 @@ a {
   max-width: 1000px;
   margin: 80px auto 80px auto;
   font-size: 18px;
-  color: #4D5053;
+  color: var(--fontColor);
 
 }
 
 .projects_wrapper h2 {
   font-size: 42px;
   font-weight: 400;
-  margin: 10px 0px
+  margin: 10px 0px;
+  color: var(--primaryColor);
+
 }
 
 .projects_wrapper span {
@@ -1042,6 +1068,8 @@ a {
   font-family: var(--primaryFont);
   font-size: 42px;
   font-weight: 400;
+  color: var(--primaryColor);
+
 }
 
 .blog_cardwrapper {
@@ -1131,7 +1159,7 @@ a {
 
 .blog_container .horizontal_wrapper {
 
-  justify-content: space-between;
+  justify-content: space-between !important;
   margin-top: -20px;
   color: #4D5053;
 }

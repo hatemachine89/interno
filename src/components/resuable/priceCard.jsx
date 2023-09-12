@@ -2,6 +2,9 @@ import React from 'react'
 import {styled} from 'styled-components'
 import {Button} from './button'
 import {FaArrowRight} from 'react-icons/fa'
+import propTypes from 'prop-types';
+
+
 
 const devices = {
     xs: `(min-width: ${'320px'})`,
@@ -137,13 +140,19 @@ export const  Feature = styled.div `
 
 
 
-
-
-
-
-
-
 const PriceCard = (props) => {
+
+    PriceCard.propTypes = {
+        title: propTypes.string,
+        isPopular: propTypes.bool,
+        price: propTypes.string,
+        per: propTypes.string,
+        buttonText: propTypes.string,
+        
+    }
+
+
+
   return (
     <PricingCardWrapper>
         <h4>{props.title}</h4>

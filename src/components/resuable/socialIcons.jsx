@@ -1,9 +1,19 @@
 import React from 'react'
 import {FaFacebook , FaInstagram , FaLinkedin , FaTwitter} from 'react-icons/fa'
+import propTypes from 'prop-types';
 
 
 
 const SocialIcons = (props) => {
+
+  SocialIcons.propTypes = {
+
+    iconColor: propTypes.string,
+   
+      }
+
+
+
   return (
     <div className='socialicon_wrapper'>
 

@@ -1,9 +1,18 @@
 import React from 'react'
 import SocialIcons from './socialIcons'
+import propTypes from 'prop-types';
 
 const CurtainCard = (props) => {
 
 
+  CurtainCard.propTypes = {
+    image: propTypes.string,
+    name: propTypes.string,
+    field: propTypes.string,
+    city: propTypes.string,
+    email: propTypes.string,
+    phone: propTypes.number,
+}
 
 
   return (

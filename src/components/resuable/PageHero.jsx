@@ -1,7 +1,18 @@
 import React from 'react'
+import propTypes from 'prop-types';
 
 
 function PageHero(props){
+
+  PageHero.propTypes = {
+    
+    banner: propTypes.string,
+    pageName: propTypes.string,
+    pageBreadcrumb: propTypes.string
+}
+
+
+
   return (
     <div>
       <div className='herowrapper' >

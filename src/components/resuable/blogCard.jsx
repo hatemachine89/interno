@@ -1,7 +1,20 @@
 import React from "react";
 import {FaArrowRight} from "react-icons/fa"
+import propTypes from 'prop-types';
 
 function Blogcard(props){
+
+
+    Blogcard.propTypes = {
+        image: propTypes.string,
+        title: propTypes.string,
+        tag: propTypes.string,
+        date: propTypes.string
+    }
+
+
+
+
 
 return(
     <div className="blog_cardoutline">

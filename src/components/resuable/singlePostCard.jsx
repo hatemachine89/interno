@@ -1,7 +1,18 @@
-import React from 'react'
-import { FaArrowRight } from "react-icons/fa"
+import React from 'react';
+import { FaArrowRight } from "react-icons/fa";
+import propTypes from 'prop-types';
+
 
 const SinglePostCard = (props) => {
+
+    SinglePostCard.propTypes = {
+        image: propTypes.string,
+        title: propTypes.string,
+        description: propTypes.string,
+        date: propTypes.string
+    }
+
+
   return (
     <div className='singlepost_wrapper'>
         <div className='image-wrapper' >

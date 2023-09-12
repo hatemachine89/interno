@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Button } from './button';
+import propTypes from 'prop-types';
 
 
 
@@ -153,6 +154,15 @@ overflow:hidden;
 
 
 export const ColumnCard = (props) => {
+
+  ColumnCard.propTypes = {
+    image: propTypes.string,
+    title: propTypes.string,
+    description: propTypes.string,
+    buttonText: propTypes.string,
+    reverseColumn: propTypes.bool,
+}
+
 
 
   return (
