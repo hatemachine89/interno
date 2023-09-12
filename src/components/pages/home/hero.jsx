@@ -10,8 +10,7 @@ return(
     <div className="main_hero">
         <div className="data-wrapper">
         <h2>Let Your Home Be Unique</h2>
-        <span>There are many variations of the passages of lorem Ipsum from available ,
-        variations of the passages.</span>
+        <span>There are many variations of the passages of lorem Ipsum from available variations of the passages.</span>
         <Button
         primary={true}
         big={false}
@@ -20,7 +19,7 @@ return(
         <FaArrowRight
         style={{
              color:'#fff',
-             marginLeft:'20px'
+             marginLeft:'10px'
             }}
         />
         </Button>

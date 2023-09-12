@@ -9,13 +9,10 @@ return(
     {servicesData.map((item) => (
         <TransparentCards
             title={item.title}
-            description={item.description}
-
+            description={item.description} 
 
         />
     ))}
-    
-    
 </div>
 )};
 

@@ -9,7 +9,7 @@ import  {bannerData}  from './data'
 
 const About = () => {
   return (
-    <div  >
+    <div>
       <PageHero 
         banner={bannerData.bannerImage}
         pageName={bannerData.title}

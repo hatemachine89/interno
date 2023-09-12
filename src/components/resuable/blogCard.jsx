@@ -12,10 +12,6 @@ function Blogcard(props){
         date: propTypes.string
     }
 
-
-
-
-
 return(
     <div className="blog_cardoutline">
         <div className="blog_container">
@@ -35,8 +31,8 @@ return(
                             color:'#CDA274'
                         }}
                     />
-                </div>
-                </div>
+                    </div>
+            </div>
 
         </div>
     </div>

@@ -8,13 +8,13 @@ import WorkProcess from './workProcess';
 const Services = () => {
   return (
     <>
-    <PageHero 
-        banner={bannerData.bannerImage}
-        pageName={bannerData.title}
-        pageBreadcrumb={bannerData.breadcrumb}
-      />
-    <CardSection/>
-<WorkProcess/>
+        <PageHero 
+            banner={bannerData.bannerImage}
+            pageName={bannerData.title}
+            pageBreadcrumb={bannerData.breadcrumb}
+          />
+        <CardSection/>
+        <WorkProcess/>
 
 
       </>

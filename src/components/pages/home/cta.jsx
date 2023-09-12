@@ -5,9 +5,7 @@ function Cta(){
     return(
         <div className="cta_wrapper">
         <div className="cta_data_wrapper">
-            <h2>We Create The Art
-                Of Stylish Living
-                Stylishly</h2>
+                <h2>We Create The Art Of Stylish Living Stylishly</h2>
                 <span>
                 It is a long established fact that a reader will be distracted by the of readable content of a page 
                 when lookings at its layouts the points of using 

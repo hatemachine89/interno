@@ -5,27 +5,18 @@ import Blogcard from '../../resuable/blogCard'
 const BlogPost = () => {
   return (
     <div className='blogpost section'>
-    <h2> Articles & News</h2>
-    
-    <div className='article-wrapper'>
-     
-     {
-        blogData.map((item) =>(
-            <Blogcard
-                image={item.blogImg}
-                tag={item.tag}
-                title={item.title}
-                date={item.date}
-            />
-        ))
-     }
-     
-
+            <h2> Articles & News</h2>
+            <div className='article-wrapper'>
+                {blogData.map((item) =>(
+                        <Blogcard
+                            image={item.blogImg}
+                            tag={item.tag}
+                            title={item.title}
+                            date={item.date}
+                        />
+                    ))}
+            </div>
     </div>
-
-
-    </div>
-  )
-}
+  )}
 
 export default BlogPost

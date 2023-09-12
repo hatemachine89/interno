@@ -8,15 +8,13 @@ import PriceCardSection from './priceCardSection';
 const Pricing = () => {
   return (
     <>
-    <PageHero 
-        banner={bannerData.bannerImage}
-        pageName={bannerData.title}
-        pageBreadcrumb={bannerData.breadcrumb}
-      />
-    <PriceCardSection />
-
-
-      </>
+      <PageHero 
+          banner={bannerData.bannerImage}
+          pageName={bannerData.title}
+          pageBreadcrumb={bannerData.breadcrumb}
+        />
+      <PriceCardSection />
+    </>
   )
 }
 
